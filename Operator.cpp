@@ -18,7 +18,7 @@ enum class PieceType2 : unsigned long
 	Pawn,
 };
 
-int main()
+int mainOperator()
 {
 	int someInteger{ 256 };
 	short someShort;
