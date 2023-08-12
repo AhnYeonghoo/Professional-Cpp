@@ -10,7 +10,7 @@ using namespace std;
 
 namespace MyLibraries::Networking::FTP {} // C++20부터 지원하는 중첩 네임스페이스
 
-int main()
+int mainMain()
 {
     
     namespace MyFTP = MyLibraries::Networking::FTP; // 간결하게 사용하기
@@ -30,6 +30,16 @@ int main()
     cout << format("Max double value: {}\n", numeric_limits<double>::max());
     cout << format("Min double value: {}\n", numeric_limits<double>::min());
     cout << format("Lowest double value: {}\n", numeric_limits<double>::lowest());
+
+    float myFloat{}; // 영 초기화
+    int myInt{};
+    myFloat = 3.14f;
+    
+    int i1{ (int)myFloat }; // C 스타일 캐스팅
+    int i2{ int(myFloat) }; // 거의 사용되지 않는다.
+    int i3{ static_cast<int>(myFloat) }; // 권장되는 방법
+    
+
     return 0;
     
 }
