@@ -128,16 +128,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AirlineTicket.cpp" />
     <ClCompile Include="array.cpp" />
     <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="designatedinitializer.cpp" />
     <ClCompile Include="employee.cpp" />
     <ClCompile Include="employee.hpp" />
     <ClCompile Include="fallthrough.cpp" />
+    <ClCompile Include="forWhile.cpp" />
     <ClCompile Include="Function.cpp" />
+    <ClCompile Include="initializerList.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="overloading.cpp" />
     <ClCompile Include="Professional-Cpp.cpp" />
+    <ClCompile Include="scope.cpp" />
     <ClCompile Include="vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirlineTicket.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

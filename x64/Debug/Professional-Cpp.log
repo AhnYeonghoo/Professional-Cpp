@@ -1,3 +1,5 @@
-﻿  vector.cpp
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\vector.cpp(42,20): warning C4101: '<structured binding>' :참조되지 않은 지역 변수입니다.
+﻿  designatedinitializer.cpp
+  scope.cpp
+  코드를 생성하고 있습니다...
+x64\Debug\employee.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
   Professional-Cpp.vcxproj -> C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Professional-Cpp.exe
