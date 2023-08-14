@@ -134,9 +134,11 @@
     <ClCompile Include="ConstCast.cpp" />
     <ClCompile Include="CppStyleRef.cpp" />
     <ClCompile Include="CStyleRef.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="DatabaseTest.cpp" />
     <ClCompile Include="designatedinitializer.cpp" />
-    <ClCompile Include="employee.cpp" />
-    <ClCompile Include="employee.hpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="EmployeeTest.cpp" />
     <ClCompile Include="Exception.cpp" />
     <ClCompile Include="fallthrough.cpp" />
     <ClCompile Include="forWhile.cpp" />
@@ -147,10 +149,13 @@
     <ClCompile Include="Professional-Cpp.cpp" />
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="scope.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirlineTicket.hpp" />
+    <ClInclude Include="Database.hpp" />
+    <ClInclude Include="Employee.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
