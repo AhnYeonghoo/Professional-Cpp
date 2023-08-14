@@ -131,9 +131,13 @@
     <ClCompile Include="AirlineTicket.cpp" />
     <ClCompile Include="array.cpp" />
     <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="ConstCast.cpp" />
+    <ClCompile Include="CppStyleRef.cpp" />
+    <ClCompile Include="CStyleRef.cpp" />
     <ClCompile Include="designatedinitializer.cpp" />
     <ClCompile Include="employee.cpp" />
     <ClCompile Include="employee.hpp" />
+    <ClCompile Include="Exception.cpp" />
     <ClCompile Include="fallthrough.cpp" />
     <ClCompile Include="forWhile.cpp" />
     <ClCompile Include="Function.cpp" />
@@ -141,6 +145,7 @@
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="overloading.cpp" />
     <ClCompile Include="Professional-Cpp.cpp" />
+    <ClCompile Include="reference.cpp" />
     <ClCompile Include="scope.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>
