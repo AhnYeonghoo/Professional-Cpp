@@ -133,6 +133,7 @@
     <ClCompile Include="Attribute.cpp" />
     <ClCompile Include="ConstCast.cpp" />
     <ClCompile Include="CppStyleRef.cpp" />
+    <ClCompile Include="CppStyleString.cpp" />
     <ClCompile Include="CStyleRef.cpp" />
     <ClCompile Include="Database.cpp" />
     <ClCompile Include="DatabaseTest.cpp" />
@@ -149,6 +150,8 @@
     <ClCompile Include="Professional-Cpp.cpp" />
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="scope.cpp" />
+    <ClCompile Include="CStyleString.cpp" />
+    <ClCompile Include="StringView.cpp" />
     <ClCompile Include="UserInterface.cpp" />
     <ClCompile Include="vector.cpp" />
   </ItemGroup>

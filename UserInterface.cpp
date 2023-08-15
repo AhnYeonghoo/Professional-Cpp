@@ -48,6 +48,8 @@ int mainUserInterface()
 			break;
 		}
 	}
+
+	return 0;
 }
 
 int displayMenu()
