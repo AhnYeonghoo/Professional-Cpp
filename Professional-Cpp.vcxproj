@@ -131,6 +131,7 @@
     <ClCompile Include="AirlineTicket.cpp" />
     <ClCompile Include="array.cpp" />
     <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="CodingStyle.cpp" />
     <ClCompile Include="ConstCast.cpp" />
     <ClCompile Include="CppStyleRef.cpp" />
     <ClCompile Include="CppStyleString.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="scope.cpp" />
     <ClCompile Include="CStyleString.cpp" />
+    <ClCompile Include="Stack.cpp" />
     <ClCompile Include="StringView.cpp" />
     <ClCompile Include="UserInterface.cpp" />
     <ClCompile Include="vector.cpp" />
