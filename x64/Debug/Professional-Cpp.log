@@ -1,2 +1,8 @@
-﻿  WeakPtr.cpp
+﻿  SpreadsheetCell.cpp
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.hpp(1,13): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  SpreadsheetCell.hpp
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.hpp(1,13): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  SpreadsheetCellMain.cpp
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.hpp(1,13): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+  코드를 생성하고 있습니다...
   Professional-Cpp.vcxproj -> C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Professional-Cpp.exe

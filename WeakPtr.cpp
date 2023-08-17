@@ -21,7 +21,7 @@ public:
 void useResource(weak_ptr<Simple3>& weakSimple);
 unique_ptr<Simple3> create();
 
-int main()
+int mainWeakPtr()
 {
 	auto sharedSimple{ make_shared<Simple3>() };
 	weak_ptr<Simple3> weakSimple{ sharedSimple };
