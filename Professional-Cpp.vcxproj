@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="AirlineTicket.cpp" />
     <ClCompile Include="array.cpp" />
+    <ClCompile Include="ArraysAndPointer.cpp" />
     <ClCompile Include="Attribute.cpp" />
     <ClCompile Include="CodingStyle.cpp" />
     <ClCompile Include="ConstCast.cpp" />

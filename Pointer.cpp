@@ -13,7 +13,7 @@ public:
 	~Simple() { cout << "Simple Destructor Called!" << endl; }
 };
 
-int main()
+int mainPointer()
 {
 	int i{ 7 }; // 스택에 저장되는 자동 변수
 	int* ptr{ nullptr }; // 스택에 ptr 포인터 변수가 저장됨
