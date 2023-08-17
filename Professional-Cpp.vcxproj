@@ -148,6 +148,7 @@
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="initializerList.cpp" />
+    <ClCompile Include="MemoryLeak.cpp" />
     <ClCompile Include="Operator.cpp" />
     <ClCompile Include="overloading.cpp" />
     <ClCompile Include="Pointer.cpp" />
@@ -155,10 +156,13 @@
     <ClCompile Include="reference.cpp" />
     <ClCompile Include="scope.cpp" />
     <ClCompile Include="CStyleString.cpp" />
+    <ClCompile Include="SharedPtr.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="StringView.cpp" />
+    <ClCompile Include="UniquePtr.cpp" />
     <ClCompile Include="UserInterface.cpp" />
     <ClCompile Include="vector.cpp" />
+    <ClCompile Include="WeakPtr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirlineTicket.hpp" />
