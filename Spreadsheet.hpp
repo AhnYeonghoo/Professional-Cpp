@@ -2,6 +2,7 @@
 #include <iostream>
 #include <exception>
 #include <utility>
+#include <vector>
 #include "SpreadsheetCell.hpp"
 
 class Spreadsheet
@@ -16,6 +17,8 @@ public:
 	Spreadsheet(const Spreadsheet& src); // Deep Copy
 	Spreadsheet& operator=(const Spreadsheet& rhs);
 	void swap(Spreadsheet& other) noexcept;
+	Spreadsheet(Spreadsheet&& src) noexcept; // 이동생성자
+	Spreadsheet& operator=(Spreadsheet&& rhs) noexcept; // 이동 대입 연산자
 private:
 	bool inRange(size_t value, size_t upper) const;
 	size_t m_width{ 0 };

@@ -162,6 +162,7 @@
     <ClCompile Include="SpreadsheetCell.cpp" />
     <ClCompile Include="SpreadsheetCell.hpp" />
     <ClCompile Include="SpreadsheetCellMain.cpp" />
+    <ClCompile Include="SpreadsheetMain.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="StringView.cpp" />
     <ClCompile Include="UniquePtr.cpp" />

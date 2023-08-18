@@ -135,6 +135,9 @@
     <ClCompile Include="Spreadsheet.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SpreadsheetMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AirlineTicket.hpp">

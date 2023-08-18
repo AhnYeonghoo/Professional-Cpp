@@ -41,6 +41,7 @@ Spreadsheet::~Spreadsheet()
 	}
 	delete[] m_cells;
 	m_cells = nullptr;
+	m_width = m_height = 0;
 }
 
 
@@ -73,3 +74,17 @@ void swap(Spreadsheet& first, Spreadsheet& second) noexcept
 {
 	first.swap(second);
 }
+
+
+
+Spreadsheet& Spreadsheet::operator=(Spreadsheet&& rhs) noexcept
+{
+	std::swap(*this, rhs);
+	return *this;
+}
+
+Spreadsheet::Spreadsheet(Spreadsheet&& src) noexcept
+{
+	std::swap(*this, src);
+}
+
