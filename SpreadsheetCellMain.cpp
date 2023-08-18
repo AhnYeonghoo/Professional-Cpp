@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int mainTemp()
 {
 	SpreadsheetCell myCell(5), anotherCell(4);
 	cout << myCell.getValue() << endl;
@@ -53,6 +53,26 @@ int main()
 	delete myCell4;
 	myCell4 = nullptr;
 
+	cout << endl << endl;
+	
+	SpreadsheetCell myCell5{ 5 };
+	if (myCell5.getValue() == 5) {
+		SpreadsheetCell anotherCell5{ 6 };
+	} // 이 블록이 끝날 때 anotherCell5가 제거된다.
+
+	cout << "MyCell: " << myCell5.getValue() << endl;
+
+	// 프리스토어에 저장된 객체의 소멸 순서는 생성의 반대
+	SpreadsheetCell* cellPtr1{ new SpreadsheetCell {5} };
+	SpreadsheetCell* cellPtr2{ new SpreadsheetCell{6} };
+	cout << "cellPtr1: " << cellPtr1->getValue() << endl;
+	delete cellPtr2;
+	cellPtr2 = nullptr;
+	delete cellPtr1;
+	cellPtr1 = nullptr;  // 프리스토어에 할당된 객체 제거
+
+
+	
 
 	return 0;
 }

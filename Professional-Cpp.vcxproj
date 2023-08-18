@@ -142,6 +142,7 @@
     <ClCompile Include="designatedinitializer.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="EmployeeTest.cpp" />
+    <ClCompile Include="EvenSequence.cpp" />
     <ClCompile Include="Exception.cpp" />
     <ClCompile Include="fallthrough.cpp" />
     <ClCompile Include="forWhile.cpp" />
@@ -157,6 +158,7 @@
     <ClCompile Include="scope.cpp" />
     <ClCompile Include="CStyleString.cpp" />
     <ClCompile Include="SharedPtr.cpp" />
+    <ClCompile Include="Spreadsheet.cpp" />
     <ClCompile Include="SpreadsheetCell.cpp" />
     <ClCompile Include="SpreadsheetCell.hpp" />
     <ClCompile Include="SpreadsheetCellMain.cpp" />
@@ -171,6 +173,7 @@
     <ClInclude Include="AirlineTicket.hpp" />
     <ClInclude Include="Database.hpp" />
     <ClInclude Include="Employee.hpp" />
+    <ClInclude Include="Spreadsheet.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

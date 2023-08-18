@@ -9,14 +9,15 @@ class SpreadsheetCell
 {
 public:
 	SpreadsheetCell(double initialValue);
-	SpreadsheetCell(std::string_view initialValue);
+	explicit SpreadsheetCell(std::string_view initialValue);
 	SpreadsheetCell() = default;
-	SpreadsheetCeel(const SpreadsheetCell& src);
+	~SpreadsheetCell();
 	void setValue(double value);
 	double getValue() const;
 
 	void setString(std::string_view value);
 	std::string getString() const;
+	SpreadsheetCell& operator=(const SpreadsheetCell& rhs);
 
 private:
 	double m_value{ 0 };

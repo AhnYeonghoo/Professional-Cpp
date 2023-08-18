@@ -10,11 +10,6 @@ SpreadsheetCell::SpreadsheetCell(string_view initialValue)
 	setString(initialValue);
 }
 
-SpreadsheetCell::SpreadsheetCell(const SpreadsheetCell& src)
-	: m_value(src.m_value) {}
-
-SpreadsheetCell::SpreadsheetCell() {}
-
 void SpreadsheetCell::setValue(double value)
 {
 	m_value = value;
@@ -45,4 +40,18 @@ double SpreadsheetCell::stringToDouble(string_view value) const
 	double number{ 0 };
 	from_chars(value.data(), value.data() + value.size(), number);
 	return number;
+}
+
+SpreadsheetCell::~SpreadsheetCell()
+{
+	cout << "Destructor called" << endl;
+}
+
+SpreadsheetCell& SpreadsheetCell::operator=(const SpreadsheetCell& rhs)
+{
+	if (this == &rhs) {
+		return *this;
+	}
+	m_value = rhs.m_value;
+	return *this;
 }
