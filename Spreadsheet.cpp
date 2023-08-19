@@ -1,12 +1,10 @@
 #include "Spreadsheet.hpp"
 using namespace std;
 
-Spreadsheet::Spreadsheet(size_t width, size_t height,
-	const SpreadsheetApplication& theApp)
+Spreadsheet::Spreadsheet(size_t width, size_t height)
 	: m_width{ min(width, MaxWidth) },
 	m_height{ min(height, MaxHeight) },
-	m_id{ ms_counter++ },
-	m_theApp{ theApp }
+	m_id{ ms_counter++ }
 {
 	m_cells = new SpreadsheetCell * [m_width];
 
@@ -85,10 +83,7 @@ Spreadsheet& Spreadsheet::operator=(Spreadsheet&& rhs) noexcept
 	return *this;
 }
 
-Spreadsheet::Spreadsheet(Spreadsheet&& src) noexcept
-{
-	std::swap(*this, src);
-}
+
 
 const SpreadsheetCell& Spreadsheet::getCellAt(size_t x, size_t y) const
 {
@@ -101,7 +96,7 @@ size_t Spreadsheet::getId() const
 	return m_id;
 }
 
-Spreadsheet::Cell::Cell(double initialValue)
+Spreadsheet::Cell::Cell(size_t initialValue)
 	: m_value {initialValue}
 {
 	

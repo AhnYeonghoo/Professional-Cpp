@@ -2,6 +2,7 @@ C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\AirlineTicket.cpp;C:\User
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\array.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\array.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\ArraysAndPointer.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\ArraysAndPointer.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Attribute.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Attribute.obj
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Base.hpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Base.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\CodingStyle.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\CodingStyle.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\ConstCast.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\ConstCast.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\CppStyleRef.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\CppStyleRef.obj
@@ -19,7 +20,9 @@ C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\forWhile.cpp;C:\Users\dks
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Function.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Function.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\inheritance.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\inheritance.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\initializerList.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\initializerList.obj
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Main.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Main.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\MemoryLeak.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\MemoryLeak.obj
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\MyWeatherPrediction.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\MyWeatherPrediction.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Operator.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Operator.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\overloading.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\overloading.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Pointer.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Pointer.obj
@@ -28,13 +31,10 @@ C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\reference.cpp;C:\Users\dk
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\scope.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\scope.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\CStyleString.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\CStyleString.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SharedPtr.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\SharedPtr.obj
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Spreadsheet.obj
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\SpreadsheetCell.obj
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.hpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\SpreadsheetCell.obj
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCellMain.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\SpreadsheetCellMain.obj
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetMain.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\SpreadsheetMain.obj
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetApplication.hpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\SpreadsheetApplication.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Stack.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Stack.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\StringView.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\StringView.obj
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Textholder.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Textholder.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\UniquePtr.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\UniquePtr.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\UserInterface.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\UserInterface.obj
 C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\vector.cpp;C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\vector.obj

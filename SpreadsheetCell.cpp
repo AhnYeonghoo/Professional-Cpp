@@ -40,14 +40,7 @@ SpreadsheetCell::~SpreadsheetCell()
 	cout << "Destructor called" << endl;
 }
 
-SpreadsheetCell& SpreadsheetCell::operator=(const SpreadsheetCell& rhs)
-{
-	if (this == &rhs) {
-		return *this;
-	}
-	m_value = rhs.m_value;
-	return *this;
-}
+
 
 void SpreadsheetCell::setColor(Color color)
 {

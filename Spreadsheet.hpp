@@ -10,8 +10,7 @@
 class Spreadsheet
 {
 public:
-	Spreadsheet(size_t width = 100, size_t height = 100,
-		const SpreadsheetApplication& theApp);
+	Spreadsheet(size_t width = 100, size_t height = 100);
 	void setCellAt(size_t x, size_t y, const SpreadsheetCell& cell);
 	SpreadsheetCell& getCellAt(size_t x, size_t y);
 	const SpreadsheetCell& getCellAt(size_t x, size_t y) const;
@@ -21,7 +20,6 @@ public:
 	Spreadsheet(const Spreadsheet& src); // Deep Copy
 	Spreadsheet& operator=(const Spreadsheet& rhs);
 	void swap(Spreadsheet& other) noexcept;
-	Spreadsheet(Spreadsheet&& src) ; // 이동생성자
 	Spreadsheet& operator=(Spreadsheet&& rhs) noexcept; // 이동 대입 연산자
 	size_t getId() const;
 	
@@ -34,7 +32,7 @@ private:
 	const size_t m_id{ 0 };
 	static const size_t MaxHeight{ 100 };
 	static const size_t MaxWidth{ 100 };
-	const SpreadsheetApplication& m_theApp;
+	//const SpreadsheetApplication& m_theApp;
 
 public:
 	class Cell;
@@ -47,7 +45,7 @@ class Spreadsheet::Cell
 {
 public:
 	Cell() = default;
-	Cell(double initialValue);
+	Cell(size_t initialValue);
 private:
 	size_t m_value;
 };

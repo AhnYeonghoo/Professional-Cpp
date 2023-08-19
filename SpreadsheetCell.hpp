@@ -19,7 +19,7 @@ public:
 		return m_value;
 	}
 
-	void setValue(int) = delete; // int형 오버로딩 명시적 삭제
+	 // int형 오버로딩 명시적 삭제
 
 	void setString(std::string_view value);
 	inline std::string getString() const
@@ -32,21 +32,21 @@ public:
 
 	// 셀 산술연산
 	SpreadsheetCell add(const SpreadsheetCell& cell) const;
-	SpreadsheetCell operator+(const SpreadsheetCell& cell) const;
+	//SpreadsheetCell operator+(const SpreadsheetCell& cell) const;
 
-	// 축약형 산술 연산자 오버로딩
-	SpreadsheetCell& operator+=(const SpreadsheetCell& rhs);
-	SpreadsheetCell& operator-=(const SpreadsheetCell& rhs);
-	SpreadsheetCell& operator/=(const SpreadsheetCell& rhs);
-	SpreadsheetCell& operator*=(const SpreadsheetCell& rhs);
+	//// 축약형 산술 연산자 오버로딩
+	//SpreadsheetCell& operator+=(const SpreadsheetCell& rhs);
+	//SpreadsheetCell& operator-=(const SpreadsheetCell& rhs);
+	//SpreadsheetCell& operator/=(const SpreadsheetCell& rhs);
+	//SpreadsheetCell& operator*=(const SpreadsheetCell& rhs);
 
-	[[nodiscard]] bool operator==(double rhs) const;
+	/*[[nodiscard]] bool operator==(double rhs) const;
 	[[nodiscard]] std::partial_ordering operator<=>(double rhs) const
 	{
 		return getValue() <=> rhs;
 	}
 	[[nodiscard]] auto operator<=>(const SpreadsheetCell&) const = default;
-	[[nodiscard]] bool operator==(const SpreadsheetCell&) const = default;
+	[[nodiscard]] bool operator==(const SpreadsheetCell&) const = default;*/
 
 
 

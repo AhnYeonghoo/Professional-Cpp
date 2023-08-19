@@ -120,22 +120,7 @@
     <ClCompile Include="WeakPtr.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SpreadsheetCell.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SpreadsheetCell.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SpreadsheetCellMain.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="EvenSequence.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Spreadsheet.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SpreadsheetMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Textholder.cpp">
@@ -143,6 +128,15 @@
     </ClCompile>
     <ClCompile Include="SpreadsheetApplication.hpp">
       <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWeatherPrediction.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -155,7 +149,10 @@
     <ClInclude Include="Database.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Spreadsheet.hpp">
+    <ClInclude Include="WeatherPrediction.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWeatherPrediction.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

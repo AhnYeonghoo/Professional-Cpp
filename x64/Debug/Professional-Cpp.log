@@ -1,13 +1,2 @@
-﻿  Spreadsheet.cpp
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.hpp(1,13): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.hpp(13,13): error C2548: 'Spreadsheet::Spreadsheet': 매개 변수 3의 기본 인수가 없습니다.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.cpp(82,27): error C2382: 'Spreadsheet::operator =': 재정의. 예외 사양이 다릅니다.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.hpp(25,15): message : 'Spreadsheet::operator =' 선언을 참조하십시오.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.cpp(88,14): error C2382: 'Spreadsheet::Spreadsheet': 재정의. 예외 사양이 다릅니다.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.hpp(24,2): message : 'Spreadsheet::Spreadsheet' 선언을 참조하십시오.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.cpp(89,1): error C2530: 'Spreadsheet::m_theApp': 참조를 초기화해야 합니다.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.cpp(105,12): error C2397: 'double'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
-  SpreadsheetMain.cpp
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\SpreadsheetCell.hpp(1,13): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
-C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\Spreadsheet.hpp(13,13): error C2548: 'Spreadsheet::Spreadsheet': 매개 변수 3의 기본 인수가 없습니다.
-  코드를 생성하고 있습니다...
+﻿  MyWeatherPrediction.cpp
+  Professional-Cpp.vcxproj -> C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Professional-Cpp.exe
