@@ -1,8 +1,12 @@
 #include "Spreadsheet.hpp"
 using namespace std;
 
-Spreadsheet::Spreadsheet(size_t width, size_t height)
-	: m_width{ width }, m_height{ height } 
+Spreadsheet::Spreadsheet(size_t width, size_t height,
+	const SpreadsheetApplication& theApp)
+	: m_width{ min(width, MaxWidth) },
+	m_height{ min(height, MaxHeight) },
+	m_id{ ms_counter++ },
+	m_theApp{ theApp }
 {
 	m_cells = new SpreadsheetCell * [m_width];
 
@@ -19,8 +23,7 @@ void Spreadsheet::setCellAt(size_t x, size_t y, const SpreadsheetCell& cell)
 
 SpreadsheetCell& Spreadsheet::getCellAt(size_t x, size_t y)
 {
-	verifyCoordinate(x, y);
-	return m_cells[x][y];
+	return const_cast<SpreadsheetCell&>(as_const(*this).getCellAt(x, y));
 }
 
 void Spreadsheet::verifyCoordinate(size_t x, size_t y) const
@@ -76,7 +79,6 @@ void swap(Spreadsheet& first, Spreadsheet& second) noexcept
 }
 
 
-
 Spreadsheet& Spreadsheet::operator=(Spreadsheet&& rhs) noexcept
 {
 	std::swap(*this, rhs);
@@ -86,5 +88,22 @@ Spreadsheet& Spreadsheet::operator=(Spreadsheet&& rhs) noexcept
 Spreadsheet::Spreadsheet(Spreadsheet&& src) noexcept
 {
 	std::swap(*this, src);
+}
+
+const SpreadsheetCell& Spreadsheet::getCellAt(size_t x, size_t y) const
+{
+	verifyCoordinate(x, y);
+	return m_cells[x][y];
+}
+
+size_t Spreadsheet::getId() const
+{
+	return m_id;
+}
+
+Spreadsheet::Cell::Cell(double initialValue)
+	: m_value {initialValue}
+{
+	
 }
 

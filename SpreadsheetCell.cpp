@@ -15,27 +15,20 @@ void SpreadsheetCell::setValue(double value)
 	m_value = value;
 }
 
-double SpreadsheetCell::getValue() const
-{
-	return m_value;
-}
+
 
 void SpreadsheetCell::setString(string_view value)
 {
 	m_value = stringToDouble(value);
 }
 
-string SpreadsheetCell::getString() const
-{
-	return doubleToString(m_value);
-}
 
-string SpreadsheetCell::doubleToString(double value) const
+string SpreadsheetCell::doubleToString(double value) 
 {
 	return to_string(value);
 }
 
-double SpreadsheetCell::stringToDouble(string_view value) const
+double SpreadsheetCell::stringToDouble(string_view value)
 {
 	double number{ 0 };
 	from_chars(value.data(), value.data() + value.size(), number);
@@ -54,4 +47,56 @@ SpreadsheetCell& SpreadsheetCell::operator=(const SpreadsheetCell& rhs)
 	}
 	m_value = rhs.m_value;
 	return *this;
+}
+
+void SpreadsheetCell::setColor(Color color)
+{
+	m_color = color;
+}
+
+SpreadsheetCell::Color SpreadsheetCell::getColor() const
+{
+	return m_color;
+}
+
+SpreadsheetCell SpreadsheetCell::add(const SpreadsheetCell& cell) const
+{
+	return SpreadsheetCell{ getValue() + cell.getValue() };
+}
+
+SpreadsheetCell SpreadsheetCell::operator+(const SpreadsheetCell& cell) const
+{
+	return SpreadsheetCell{ getValue() + cell.getValue() };
+}
+
+SpreadsheetCell& SpreadsheetCell::operator+=(const SpreadsheetCell& rhs)
+{
+	setValue(getValue() + rhs.getValue());
+	return *this;
+}
+
+SpreadsheetCell& SpreadsheetCell::operator-=(const SpreadsheetCell& rhs)
+{
+	setValue(getValue() - rhs.getValue());
+	return *this;
+}
+
+SpreadsheetCell& SpreadsheetCell::operator/=(const SpreadsheetCell& rhs)
+{
+	if (rhs.getValue() == 0) {
+		throw invalid_argument{ "Divide by zero" };
+	}
+	setValue(getValue() / rhs.getValue());
+	return *this;
+}
+
+SpreadsheetCell& SpreadsheetCell::operator*=(const SpreadsheetCell& rhs)
+{
+	setValue(getValue() * rhs.getValue());
+	return *this;
+}
+
+bool SpreadsheetCell::operator==(double rhs) const
+{
+	return getValue() == rhs;
 }
