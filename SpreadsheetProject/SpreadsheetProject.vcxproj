@@ -128,9 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DoubleSpreadsheetCell.hpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Spreadsheet.cpp" />
     <ClCompile Include="SpreadsheetCell.cpp" />
+    <ClCompile Include="SpreadsheetCell2.hpp" />
+    <ClCompile Include="StringSpreadsheetCell.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Spreadsheet.hpp" />
