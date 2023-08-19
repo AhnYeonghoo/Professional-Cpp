@@ -1,2 +1,7 @@
-﻿  MyWeatherPrediction.cpp
-  Professional-Cpp.vcxproj -> C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Professional-Cpp.exe
+﻿  Main.cpp
+  MyWeatherPrediction.cpp
+  코드를 생성하고 있습니다...
+  LINK : C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Professional-Cpp.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+Professional-Cpp.obj : error LNK2005: "int __cdecl mainMain(void)" (?mainMain@@YAHXZ)이(가) Main.obj에 이미 정의되어 있습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\dksdu\OneDrive\바탕 화면\Professional-Cpp\x64\Debug\Professional-Cpp.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

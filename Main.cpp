@@ -25,7 +25,7 @@ private:
 };
 
 
-int main()
+int mainMainMain()
 {
 	Derived myD;
 	myD.someMethod();
