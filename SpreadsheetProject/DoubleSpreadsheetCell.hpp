@@ -1,4 +1,4 @@
-#pragma once;
+#pragma once
 #include "SpreadsheetCell2.hpp"
 
 class DoubleSpreadsheetCell : public SpreadsheetCell2

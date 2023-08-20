@@ -1,4 +1,4 @@
-#pragma once;
+#pragma once
 #include "SpreadsheetCell.hpp"
 #include <cstddef>
 #include <memory>

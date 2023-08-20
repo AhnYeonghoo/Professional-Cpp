@@ -4,7 +4,7 @@
 #include "SpreadsheetCell2.hpp"
 using namespace std;
 
-int main()
+int mainMain()
 {
 	vector<unique_ptr<SpreadsheetCell2>> cellArray;
 	
@@ -19,5 +19,10 @@ int main()
 		cellArray[1]->getString(),
 		cellArray[2]->getString()) << endl;
 
+	cout << endl << endl;
+	/*DoubleSpreadsheetCell myDbl;
+	myDbl.set(8.4);
+	StringSpreadsheetCell result{ myDbl + myDbl };
+	cout << result.getString() << endl;*/
 	return 0;
 }
