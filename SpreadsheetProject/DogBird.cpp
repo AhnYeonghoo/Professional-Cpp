@@ -25,10 +25,43 @@ public:
 	}
 };
 
-int main()
+class BaseStatic
+{
+public:
+	static void beStatic() { cout << "BaseStatic being static." << endl; }
+};
+
+class DerivedStatic : public BaseStatic
+{
+public:
+	static void beStatic() { cout << "DerivedStatic keepin it static." << endl; }
+};
+
+class Base2
+{
+public:
+	virtual ~Base2() = default;
+	virtual void overload() { cout << "Base`s overload()" << endl; }
+	virtual void overload(int i) { cout << "Base`s overload(int i)" << endl; }
+};
+
+class Derived2 : public Base2
+{
+public:
+	using Base2::overload;
+	virtual void overload() override
+	{
+		cout << "Derived`s overload()" << endl;
+	}
+};
+
+int mainDogBird()
 {
 	DogBird myConfusedAnimal;
 	myConfusedAnimal.bark();
 	myConfusedAnimal.chirp();
+	
+	BaseStatic::beStatic();
+	DerivedStatic::beStatic();
 	return 0;
 }
