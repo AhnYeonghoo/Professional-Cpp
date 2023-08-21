@@ -57,12 +57,24 @@
     <ClCompile Include="DynamicCast.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtility.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Spreadsheet.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="SpreadsheetCell.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

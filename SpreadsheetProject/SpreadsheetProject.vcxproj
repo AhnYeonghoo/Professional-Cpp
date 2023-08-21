@@ -130,11 +130,14 @@
   <ItemGroup>
     <ClCompile Include="BitCast.cpp" />
     <ClCompile Include="Cast.cpp" />
+    <ClCompile Include="CUtility.cpp" />
     <ClCompile Include="DogBird.cpp" />
     <ClCompile Include="DoubleSpreadsheetCell.hpp" />
     <ClCompile Include="DynamicCast.cpp" />
+    <ClCompile Include="Macro.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MilesEstimator.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="ReinterpretCast.cpp" />
     <ClCompile Include="RTTI.cpp" />
     <ClCompile Include="Spreadsheet.cpp" />
@@ -144,6 +147,7 @@
     <ClCompile Include="VritualBaseClass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Person.hpp" />
     <ClInclude Include="Spreadsheet.hpp" />
     <ClInclude Include="SpreadsheetCell.hpp" />
   </ItemGroup>
