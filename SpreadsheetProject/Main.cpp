@@ -4,7 +4,7 @@
 #include "SpreadsheetCell2.hpp"
 using namespace std;
 
-int mainMain()
+int main()
 {
 	vector<unique_ptr<SpreadsheetCell2>> cellArray;
 	
