@@ -131,12 +131,14 @@
     <ClInclude Include="GameBoard.hpp" />
     <ClInclude Include="GamePiece.hpp" />
     <ClInclude Include="Grid.hpp" />
+    <ClInclude Include="Grid2.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChessPiece.hpp" />
     <ClCompile Include="GameBoard.cpp" />
     <ClCompile Include="GamePiece.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TicTacToePiece.hpp" />
