@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int mainMain2()
 {
 	Grid2<int, 10, 10> myGrid;
 	Grid2<int, 10, 10> anotherGrid;
