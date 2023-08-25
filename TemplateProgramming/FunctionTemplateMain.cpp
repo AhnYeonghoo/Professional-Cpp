@@ -1,6 +1,6 @@
 #include "Grid5.hpp"
 
-int main()
+int mainFunctionTemplateMain()
 {
 	// 함수 템플릿 사용법
 	int myInt{ 3 }, intArray[]{ 1,2,3,4 };
